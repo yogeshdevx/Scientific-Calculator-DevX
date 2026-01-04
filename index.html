@@ -19,8 +19,8 @@ body {
     align-items: center;
     background:
         radial-gradient(circle at top,
-        #06b6d4 0%,
-        #020617 45%,
+        #000000 0%,
+        #05181b 45%,
         #000000 100%);
 }
 
@@ -28,13 +28,13 @@ body {
 .calculator {
     width: 100%;
     max-width: 360px;
-    background: rgba(0, 0, 0, 0.92);
+    background: rgb(0, 0, 0);
     backdrop-filter: blur(12px);
     border-radius: 18px;
     padding: 20px;
     box-shadow:
-        0 0 30px rgba(6, 182, 212, 0.45),
-        inset 0 0 18px rgba(6, 182, 212, 0.18);
+        0 0 30px rgb(36, 193, 220),
+        inset 0 0 18px rgba(0, 0, 0, 0.97);
 }
 
 /* Display */
@@ -48,9 +48,9 @@ body {
     border-radius: 12px;
     border: none;
     outline: none;
-    background: #020617;
-    color: #67e8f9;
-    box-shadow: inset 0 0 12px rgba(6, 182, 212, 0.6);
+    background: #000000;
+    color: #1fe8f7;
+    box-shadow: inset 0 0 12px rgb(0, 166, 216);
 }
 
 /* Buttons Grid */
@@ -67,17 +67,17 @@ button {
     border-radius: 12px;
     border: none;
     cursor: pointer;
-    color: #e5e7eb;
-    background: linear-gradient(145deg, #020617, #000000);
+    color: #11c5d9;
+    background: linear-gradient(145deg, #000000, #000000);
     box-shadow:
-        0 0 8px rgba(6, 182, 212, 0.35),
-        inset 0 0 6px rgba(6, 182, 212, 0.2);
+        0 0 8px rgb(0, 0, 0),
+        inset 0 0 6px rgba(32, 222, 236, 0.669);
     transition: all 0.2s ease;
 }
 
 button:hover {
     transform: scale(1.06);
-    box-shadow: 0 0 18px rgba(6, 182, 212, 0.8);
+    box-shadow: 0 0 18px rgba(14, 176, 225, 0.998);
 }
 
 /* Function Buttons (Cyan) */
@@ -94,15 +94,15 @@ button:hover {
 /* Equal Button */
 .equal {
     grid-column: span 2;
-    background: linear-gradient(145deg, #06b6d4, #0891b2);
-    color: #020617;
+    background: linear-gradient(145deg);
+    color: #10c5f8;
     font-weight: bold;
 }
 
 /* Clear Button */
 .clear {
-    background: linear-gradient(145deg, #7f1d1d, #dc2626);
-    color: #fff;
+    background: linear-gradient(145deg);
+    color: #16afc7;
 }
 
 /* Responsive */
