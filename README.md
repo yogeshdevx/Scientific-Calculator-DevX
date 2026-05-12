@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://yogeshdevx.github.io/Scientific-Calculator-DevX/" target="_blank">
+  <a href="https://yogeshdevx.github.io/ScientificCalculator/" target="_blank">
     🚀 <strong>Live Demo</strong>
   </a>
 </p>
